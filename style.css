@@ -1,0 +1,109 @@
+#hatter{
+    width: 800px; 
+    height: 500px;
+    background-image: url(circuit.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+img{
+    width: 8%;
+    position: relative;
+    left: 85%;
+    top: 40%;
+    transform: rotate(90deg);
+    animation-name: mozog;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes mozog{
+    0%{
+        left: 85%;
+        top: 40%;
+        transform: rotate(90deg);
+    }
+    5%{
+        left: 85%;
+        top: 55%;
+        transform: rotate(90deg);
+    }
+    10%{
+        left: 85%;
+        top: 55%;
+        transform: rotate(120deg);
+    }
+    15%{
+        left: 80%;
+        top: 70%;
+        transform: rotate(120deg);
+    }
+    20%{
+        left: 80%;
+        top: 70%;
+        transform: rotate(180deg);
+    }
+    25%{
+        left: 10%;
+        top: 70%;
+        transform: rotate(180deg);
+    }
+    30%{
+        left: 3%;
+        top: 60%;
+        transform: rotate(240deg);
+    }
+    35%{
+        left: 2%;
+        top: 50%;
+        transform: rotate(270deg);
+    }
+    40%{
+        left: 3%;
+        top: 41%;
+        transform: rotate(295deg);
+    }
+    45%{
+        left: 10%;
+        top: 33%;
+        transform: rotate(360deg);
+    }
+    50%{
+        left: 40%;
+        top: 33%;
+        transform: rotate(360deg);
+    }
+    55%{
+        left: 45%;
+        top: 20%;
+        transform: rotate(280deg);
+    }
+    60%{
+        left: 50%;
+        top: 5%;
+        transform: rotate(300deg);
+    }
+    65%{
+        left: 55%;
+        top: 2%;
+        transform: rotate(360deg);
+    }
+    70%{
+        left: 80%;
+        top: 2%;
+        transform: rotate(360deg);
+    }
+    75%{
+        left: 82%;
+        top: 5%;
+        transform: rotate(410deg);
+    }
+    80%{
+        left: 86%;
+        top: 15%;
+        transform: rotate(450deg);
+    }
+    100%{
+        left: 85%;
+        top: 40%;
+        transform: rotate(450deg);
+    }
+}
